@@ -1,0 +1,16 @@
+.message {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    color: grey;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    border: thin solid rgba(0,0,0,0.3);
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.4);
+}
+.red {
+    background: #CA4343;
+    color: white;
+}

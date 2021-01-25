@@ -1,16 +1,24 @@
+@import url("https://use.typekit.net/rut4wha.css");
+
 html,
 body {
+  background: url(../public/assets/backgrounds/tiledstar_blue.png);
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+  font-family: droidsans, sans-serif;
+  font-weight: 400;
 }
 
 * {
   box-sizing: border-box;
+}
+
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.react-isometric-map-wrapper {
+  margin-left: 266px !important;
+  margin-top: 90px !important;
 }

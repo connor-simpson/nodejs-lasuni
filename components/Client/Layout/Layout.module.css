@@ -1,0 +1,6 @@
+.layoutContainer {
+    background: #6BCBFF;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

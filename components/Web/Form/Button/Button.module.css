@@ -1,0 +1,20 @@
+.button {
+    border: none;
+    padding: 5px 20px;
+    text-transform: lowercase;
+    font-weight: bold;
+
+    background: #6BCBFF;
+    border: thin solid #2683AD;
+    box-shadow: inset 0px -17px 0px rgb(70,183,245);
+    color: #136694;
+    text-shadow: -1px 1px 0px rgba(225,225,225,0.7);
+}
+
+.gold {
+    background: #F2C33B;
+    border: thin solid #8F6211;
+    box-shadow: inset 0px -17px 0px rgb(239,162,27);
+    color: #753108;
+    text-shadow: -1px 1px 0px rgba(0,0,0,0.3);
+}

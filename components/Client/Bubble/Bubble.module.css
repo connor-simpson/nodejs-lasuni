@@ -1,0 +1,29 @@
+.speechBubble {
+    border: thin solid #6C6C6C;
+    display: flex;
+    font-size: 13.5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.speechBubbleName {
+    background: #A5A5A5;
+    padding: 0px 10px;
+    font-weight: bold;
+    text-shadow: -1px 1px 0px rgba(0,0,0, 0.8);
+    color: white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-shadow: inset 0px -10px 0px rgba(0,0,0,0.1);
+}
+
+.speechBubbleText {
+    flex-grow: 1;
+    background: #F1F1F1;
+    padding: 0px 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: inset 0px -10px 0px rgba(0,0,0,0.1);
+    text-shadow: -1px 1px 0px rgba(225,255,255, 0.8);
+    white-space: nowrap;
+}

@@ -1,0 +1,109 @@
+.panelWrapper {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.panelContainer {
+    width: 250px;
+    opacity: 0;
+    transition: opacity .1s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    font-weight: 610;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.showPanel {
+    opacity: 1;
+}
+
+.panelHeader {
+    height: 30px;
+    display: flex;
+    width: 100%;
+}
+
+.panelHeaderLeft {
+    background: url(../../../public/assets/panel/headerLeft.png) no-repeat;
+    width: 7px;
+    height: 30px;
+}
+.panelHeaderRight {
+    background: url(../../../public/assets/panel/headerRight.png) no-repeat;
+    width: 7px;
+    height: 30px;
+}
+.panelHeaderText {
+    background: url(../../../public/assets/panel/header.png) repeat-x;
+    flex-grow: 1;
+    text-align: center;
+    color: #d9d9d9;
+    font-size: 14px;
+    font-weight: 610;
+    padding-top: 3px;
+}
+
+.panelHeaderTimes {
+    height: 13px;
+    width: 13px;
+    background: url(../../../public/assets/panel/panelTimes.png); 
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.panelBody {
+    background: #e2e2e2;
+    border: thin solid #7d7d7d;
+    border-top: none;
+    padding: 15px;
+    padding-bottom: 8px;
+    color: #646464;
+    font-size: 13.5px;
+    box-shadow: inset 1px 1px #fcfcfc, inset -1px 0 #fcfcfc;
+    border-bottom: none;
+    flex-grow: 1;
+}
+
+.panelBody p {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.panelBody h5 {
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.panelLowerBody {
+    height: 7px;
+    display: flex;
+}
+.panelBodyFill {
+    height: 7px;
+    flex-grow: 1;
+    background: url(../../../public/assets/panel/body.png);
+}
+.panelBodyLeft {
+    height: 7px;
+    width: 7px;
+    background: url(../../../public/assets/panel/bodyLeft.png);
+}
+.panelBodyRight {
+    height: 7px;
+    width: 7px;
+    background: url(../../../public/assets/panel/bodyRight.png);
+}

@@ -1,29 +1,26 @@
+import { useEffect, useState } from 'react'
+
 import Bar from "../components/Client/Bar/Bar"
 import Layout from "../components/Client/Layout"
-import Room from '../components/Client/Room'
 import Bubble from "../components/Client/Bubble"
 import BubbleLayer from '../components/Client/BubbleLayer'
-import { useEffect } from 'react'
-//import io from 'socket.io-client'
+import Panel from "../components/Client/Panel"
+import Textarea from "../components/Client/Form/Textarea"
+import Button from "../components/Client/Form/Button"
 
+import { usePanel } from '../contexts/PanelContext'
+
+import dynamic from 'next/dynamic'
+
+
+const Room = dynamic(import("../components/Client/Room"), {
+    ssr: false
+})
 
 const Game = () => {
 
-    
-
-    useEffect(() => {
-
-        /*const socket = io('ws://localhost:3001');
-
-        socket.on('connect', () => {
-            socket.send("hello!");
-        });*/
-
-    })
-
     return <Layout>
         <Room />
-        <Bar />
     </Layout>
 }
 

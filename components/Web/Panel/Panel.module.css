@@ -20,11 +20,11 @@
     color: white;
     font-weight: 400;
     font-size: 17.5px;
-    text-shadow: 1px 1px 0px black;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.5);
     border: 2px solid rgb(255, 255, 255, 0.55);
     border-bottom: none;
     padding: 5px 15px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .orange {

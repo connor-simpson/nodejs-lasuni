@@ -1,0 +1,10 @@
+.button {
+    border: thin solid #8b8b8b;
+    box-shadow: inset 0px -10px #e2e2e2;
+    background: white;
+    border-radius: 3px;
+    height: 23px;
+    font-weight:bold;
+    color: #696969;
+    font-size: 12.5px;
+}

@@ -34,8 +34,8 @@ const Login = () => {
         {error &&
             <Message variant="red">{error}</Message>
         }
-        <Input placeholder="Username" type="text" onChange={ e => setUsername(e.target.value) } />
-        <Input placeholder="Password" type="password" onChange={ e => setPassword(e.target.value) }  />
+        <Input autoComplete="username" placeholder="Username" type="text" onChange={ e => setUsername(e.target.value) } />
+        <Input autoComplete="current-password" placeholder="Password" type="password" onChange={ e => setPassword(e.target.value) }  />
         <Button variant="gold" type="submit">Login</Button>
     </form>
 }
